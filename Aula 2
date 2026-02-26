@@ -1,0 +1,47 @@
+COMUTAÇÃO DE CIRCUITOS:
+  - processo de conectar dois ou mais pontos em uma rede que seja permitda a troca de informações
+
+      VANTAGENS:
+        - garantia de banda
+        - baixa latencia constante 
+        - qualidade previsivel
+      DESVANTAGENS:
+        - mantem o canal/linha ocupado(a) durante o uso mesmo em momentos de silencio
+        - baixa eficiencia 
+        - escalabilidade limitada 
+
+
+COMUTAÇÃO DE PACOTES:
+  - a mensagem é fragmentada em pacotes 
+  - cada PACOTE contem:
+      dados, endereço de origem, endereço de destino -> no destino os pacotes são reorganizados na ordem correta 
+  - os pacotes são enviados por diferentes caminhos e misturados com outros tipos de pacotes com diferentes dados e endereços, por isso precissa ser reorganizados 
+  - porque "pacotes"? por conta da eficiencia de compartilhar o mesmo canal de comunicação 
+
+      VANTAGENS: 
+        - não depende da central 
+        - uso eficiente da rede 
+        - maior escalabilidade 
+        - flexibilidade de rotas 
+      DESVANTAGENS: 
+        - atraso variavel (latencia)
+        - possível perda de pacotes 
+        - qualidade não garantida por padrão 
+
+---------------------------------------------------------------------------------------
+
+EVOLUÇÃO DOS CELULARES:
+  - 1g: voz 
+  - 2g: voz, SMS
+  - 3g: dados móveis 
+  - 4g: internet rápida
+  - 5g: alta capacidade + baixa latência
+
+O QUE QUE REALMENTE EVOLUIU: 
+  - digitalização do sinal
+  - compressão dos dados 
+  - protocolos mais eficientes 
+  - capacidade de processamento 
+
+
+
