@@ -1,0 +1,19 @@
+SISTEMA BASICO DE COMUNICAÇÃO DE DADOS: 
+  - fonte
+  - mensagem 
+  - transmissor 
+  - receptor
+  - meio 
+  - protocolo 
+
+FONTE: quem cria a informação a ser transmitida
+MENSAGEM: é a informação 
+TRANSMISSOR: dispositivo que envia a mensagem de dados 
+RECEPTOR:  dispositivo que recebe a mensagem 
+MEIO: é o canal por onde a mensagem é enviada 
+PROTOCOLO: conjunto de regras que comanda a comunicação de dados --> atraves dos prootocolos de comunicação que que sistemas computacionas se comunicam != da comunicação telefonica que utliza corrente elétrica 
+
+TRANSMISSÃO DE DADOS:
+  - simplex
+  - duplex 
+  - full duplex 
