@@ -1,0 +1,42 @@
+REVISÃO PARA A PROVA DO DIA 02/04 
+PESO 6,0
+
+O que é uma comunicação de dados? 
+  É uma troca de informações entre dois ou mais dispositivos entre um meio de comunicação.
+
+O que compõe o Sistema basico de comunicação de dados? Necessita de um Protocolo para haver comunicação é quem governa ela 
+  Fonte, mensagem, transmissor, receptor e o meio
+Fonte: é a origem da informação, quem gera ela 
+Mensagem: é a informação ja gerada pronta para ser compartilhada 
+Transmissor: é o meio ou mecanismo que transforma a mensagem em um sinal para ser enviado 
+Receptor: é quem recebe e interpreta a mensagem 
+Meio: é o caminho por onde a mensagem passa do transmissor até o receptor 
+
+Protocolos: 
+  Define as regras da comunicação, precisa que o protocolo seja o mesmo para haver entedimento da comunicação
+  Existe diversos protocolos 
+
+Modelo do WhatsApp: 
+  Codificação e encapsulamento:  
+  Camadas Superiores:
+    O aplicativo aplica todos protocolos para estruturar a mensagem
+  Segmentação: 
+    A mensaggm é dividida em pequenos pacotes 
+  Endereçamento: 
+    O dispositivo adiciona o "endereço" de destino 
+  Roteamento: 
+    Analisam o endereço de destino e definem o melhor caminho 
+  Multiplexação:
+    Os dados são misturados no cabo/fibra e depois separdos para otimizar 
+
+Fundamentos de transmissaão de dados: 
+Simplex:
+  Um dispositivo é o transmissor e o outro é o receptor, ou seja, a transmissão é Unidirecional. EX: antena. 
+Half-Duplex:
+  Bidirecional, mas por compartilharem o mesmo canal não podem fazer a mesma ação ao mesmo tempo. EX: alque toque 
+Full-Duplex: 
+  Verdadeira comunicação bidirecional, ambos podem transmitir e receber dados ao mesmo tempo. 
+
+
+
+
