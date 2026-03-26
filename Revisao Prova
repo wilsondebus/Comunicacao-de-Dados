@@ -25,7 +25,7 @@ Modelo do WhatsApp:
   Endereçamento: 
     O dispositivo adiciona o "endereço" de destino 
   Roteamento: 
-    Analisam o endereço de destino e definem o melhor caminho 
+    Analisam o endereço de destino e definem o melhor caminho, pelo numero de saltos, latência, largura de banda e congestionamento 
   Multiplexação:
     Os dados são misturados no cabo/fibra e depois separdos para otimizar 
 
@@ -36,6 +36,60 @@ Half-Duplex:
   Bidirecional, mas por compartilharem o mesmo canal não podem fazer a mesma ação ao mesmo tempo. EX: alque toque 
 Full-Duplex: 
   Verdadeira comunicação bidirecional, ambos podem transmitir e receber dados ao mesmo tempo. 
+
+Telégrafo: 
+  Só transmite sinais cidificados, não era voz nem som contínuo 
+
+Fundamentos da Trans,issão de som: 
+Para sair do sistema de pulsos e transmitir voz, era necessário
+  Converter as ondas sonoras em variações elétricas 
+  Converter essas variações em som no receptor 
+Isso exigiu compreensão de:
+  Eletromagnetismo 
+  Vibrção mecanica 
+
+Telefone:
+  Variações continuas proporcionais ao som(analógico) 
+
+Comutação de circuitos: 
+  Comutação: é o processo de conectar dois ou mais pontos de uma rede para permitir a troca de informações 
+Quando voce faz uma chamada telefonica:
+  Seu telefone envia um sinal para a central 
+  A central comuta(conecta) sua linha a linha da outra pessoa 
+  Forma-se um caminho temporario entre os dois aparelhos
+
+Vantagens: Uso eficiente da rede, maior escalabilidade, flexibilidade de rotas 
+Desvantagens: Atraso variável(latência), possível perda de pacotes, qualidade não garantida
+
+IP -> endereço de destino
+Protocolo -> Selo 
+Dados -> Conteúdo 
+Roteador -> Centro de distribuição 
+
+Atenuação: Perda de potência pela distância. EX: Wifi fica mais fraco conforme a distancia do roteador 
+Ruído ou interferecia: Interferencia eletromagnetica, sobreposição de canais wifi e obstaculos físicos. 
+
+Largura da banda 
+  Caminho que os dados vão percorrer 
+Latência 
+  Tempo que o pacote leva da origem até chegar ao destino, medido em ms (ping)
+
+Jitter: é a variação do tempo de chegada dos pacotes, afeta pricipalmente áudio e vídeo. Oscilação de ping. É o que faz travar, pois umas mensagem são enviadas em certo tempo e outra em outro tempo 
+Solução: Buffer de Jitter: armazena temporariamente os pacotes recebidos, reordena-os e os entrega em um fluxo constante 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
